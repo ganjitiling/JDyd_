@@ -1,0 +1,20 @@
+{
+  "name": "yes",
+  "description": "\"JDyd\"",
+  "main": "index.js",
+  "authors": [
+    "方友镜 <fang799336159@163.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ganjitiling/JDyd_",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "^1.6.4"
+  }
+}
