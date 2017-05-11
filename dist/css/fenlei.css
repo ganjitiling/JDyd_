@@ -1,0 +1,46 @@
+#top {
+  width: 100%;
+  height: 50px;
+  background-color: #f5f5f5;
+}
+#top #fanhui {
+  float: left;
+  display: block;
+}
+#top #fanhui span {
+  size: 30px;
+}
+#top #fanhui a {
+  size: 30px;
+  color: black;
+  display: none;
+  text-decoration: none;
+}
+#top #fanhui a :hover {
+  text-decoration: none;
+  color: black;
+}
+#top #sousuo {
+  float: left;
+}
+#top #sousuo span {
+  display: none;
+}
+#top #daohangbtn {
+  float: left;
+  display: block;
+}
+#body {
+  width: 100%;
+  height: 90%;
+}
+#body #tab {
+  width: 25%;
+}
+#body #tab li a {
+  color: black;
+}
+#body #tab .active a {
+  color: red;
+  border: none;
+}
