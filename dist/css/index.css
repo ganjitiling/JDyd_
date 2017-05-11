@@ -1,5 +1,5 @@
 body {
-  background: #C0C0C0;
+  background: #00b3ee;
   height: 1800px;
 }
 .jd_dingbu {
@@ -31,17 +31,17 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
-  height: 250px;
+  height: 200px;
   width: 100%;
 }
 .lunbotu .slideBox {
   height: 200px;
   width: 100%
-  overflow:hidden;
-	margin: -20px;
-	
+         overflow:hidden;
+  position: relative;
   border: 1px solid #ddd;
- 
+  top: -20px;
+  left: 20px;
 }
 .lunbotu .slideBox .hd ul li.on {
   background: #f00;
@@ -53,11 +53,11 @@ body {
   z-index: 1;
 }
 .lunbotu .slideBox .bd li {
-  /*zoom: 1;*/
+  zoom: 1;
   vertical-align: middle;
 }
-.lunbotu .slideBox .bd li img {
+.lunbotu .slideBox .bd img {
   height: 200px;
-  width: 100%;
+  width: 1000px;
   display: block;
 }
