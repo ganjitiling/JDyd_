@@ -1,4 +1,4 @@
-var gulp=require("gulp");
+﻿var gulp=require("gulp");
 var less=require("less");
 var $=require('gulp-load-plugins')();
 // var cleancss=require("gulp-clean-css");
@@ -14,3 +14,4 @@ gulp.task('less',function () {
 gulp.task("dist",function () {
     gulp.watch("app/style/*.less",['less']);//编译和压缩CSS文件
 });
+
