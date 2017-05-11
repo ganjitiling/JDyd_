@@ -1,0 +1,28 @@
+.jd_dingbu{
+    margin: 0;
+    padding: 0;;
+}
+.dingbu{
+    margin: 0;
+    padding:0;
+    height: 50px;
+    width: 100%;
+    background-image: url("../img/header-bg.png");
+    background-repeat: repeat-x;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.dingbu .icon-reply{
+    position: absolute;
+    top:13px;
+    left: 10px;
+}
+.dingbu h3{
+    text-align: center;
+}
+.dingbu .icon-align-justify{
+    position: absolute;
+    top: 13px;
+    right: 10px;
+}

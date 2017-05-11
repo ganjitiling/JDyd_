@@ -1,4 +1,16 @@
-   var gulp=require("gulp");
-   gulp.task("show",function () {
-       console.log("hello gulp")
-   });
+var gulp=require("gulp");
+var less=require("less");
+var $=require('gulp-load-plugins')();
+// var cleancss=require("gulp-clean-css");
+// var concat=require("gulp-concat");
+//less文件编译成css文件并压缩
+gulp.task('less',function () {
+    return gulp.src('app/style/*.less')
+        .pipe($.less())
+        // .pipe(cleancss())//压缩
+        .pipe(gulp.dest('dist/css'));
+});
+/*当改变代码的时候改变*/
+gulp.task("dist",function () {
+    gulp.watch("app/style/*.less",['less']);//编译和压缩CSS文件
+});
