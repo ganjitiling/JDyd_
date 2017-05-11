@@ -13,4 +13,7 @@ gulp.task('less',function () {
 /*当改变代码的时候改变*/
 gulp.task("dist",function () {
     gulp.watch("app/style/*.less",['less']);//编译和压缩CSS文件
- });
+
+});
+
+

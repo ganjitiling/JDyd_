@@ -1,0 +1,177 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+.jd_layout {
+  min-width: 300px;
+  max-width: 640px;
+  margin: 0 auto;
+  position: relative;
+}
+#top {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  height: 45px;
+  background-color: #f5f5f5;
+  border-bottom: 1px rgba(103, 103, 103, 0.28) solid;
+}
+#top #fanhui {
+  margin: 3px 10px 6px 6px;
+  float: left;
+  display: block;
+  padding-left: 10px;
+  text-align: center;
+}
+#top #fanhui a {
+  font-size: 25px;
+  color: black;
+}
+#top #fanhui a :hover {
+  text-decoration: none;
+  color: black;
+}
+#top #fanhui a :link {
+  text-decoration: none;
+  color: black;
+}
+#top #fanhui a :active {
+  text-decoration: none;
+  color: black;
+}
+#top #fanhui a :visited {
+  text-decoration: none;
+  color: black;
+}
+#top #fanhui span {
+  font-size: 25px;
+  display: none;
+  text-decoration: none;
+}
+#top #fanhui span :hover {
+  text-decoration: none;
+  color: black;
+}
+#top #fanhui span :link {
+  text-decoration: none;
+  color: black;
+}
+#top #fanhui span :active {
+  text-decoration: none;
+  color: black;
+}
+#top #fanhui span :visited {
+  text-decoration: none;
+  color: black;
+}
+#top #sousuo {
+  float: left;
+  width: 75%;
+  height: 100%;
+}
+#top #sousuo input {
+  border: 1px rgba(75, 75, 75, 0.3) solid;
+  border-radius: 5px;
+  margin-top: 7px;
+  width: 100%;
+  height: 30px;
+  padding-left: 10px;
+  color: rgba(24, 24, 24, 0.67);
+  font-size: 13px;
+}
+#top #sousuo span {
+  display: none;
+}
+#top #daohangbtn {
+  float: left;
+  display: block;
+  margin: 10px 0 0 10px;
+}
+#top #daohangbtn span {
+  font-size: 20px;
+}
+#middle {
+  background-color: #f3f5f7;
+  padding-top: 45px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#middle #left {
+  z-index: 8;
+  height: 100%;
+  width: 22%;
+  background-color: white;
+  position: relative;
+  float: left;
+}
+#middle #left ul li {
+  border-top: 1px rgba(103, 103, 103, 0.28) solid;
+}
+#middle #left ul li.active a {
+  color: red;
+}
+#middle #left ul li a {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-color: transparent;
+  color: black;
+  font-size: 12px;
+}
+#middle #tab-body {
+  padding-left: 24%;
+  height: 100%;
+  width: 100%;
+  padding-right: 5px;
+  position: relative;
+}
+#middle #tab-body #tuijian,
+#middle #tab-body #chaoshi,
+#middle #tab-body #quanqiugou {
+  position: relative;
+}
+#middle #tab-body #tuijian img,
+#middle #tab-body #chaoshi img,
+#middle #tab-body #quanqiugou img {
+  margin-top: 5px;
+  width: 100%;
+  height: 120px;
+}
+#middle #tab-body #tuijian div,
+#middle #tab-body #chaoshi div,
+#middle #tab-body #quanqiugou div {
+  display: block;
+  overflow: hidden;
+  margin-top: 20px;
+  position: relative;
+  background-color: white;
+}
+#middle #tab-body #tuijian div ul,
+#middle #tab-body #chaoshi div ul,
+#middle #tab-body #quanqiugou div ul {
+  padding: 10px;
+}
+#middle #tab-body #tuijian div ul li,
+#middle #tab-body #chaoshi div ul li,
+#middle #tab-body #quanqiugou div ul li {
+  width: 33%;
+  list-style: none;
+  float: left;
+  text-align: center;
+}
+#middle #tab-body #tuijian div ul li :hover,
+#middle #tab-body #chaoshi div ul li :hover,
+#middle #tab-body #quanqiugou div ul li :hover {
+  text-decoration: none;
+}
+#middle #tab-body #tuijian div ul li img,
+#middle #tab-body #chaoshi div ul li img,
+#middle #tab-body #quanqiugou div ul li img {
+  height: 50%;
+}
+#middle #tab-body #tuijian div ul li a,
+#middle #tab-body #chaoshi div ul li a,
+#middle #tab-body #quanqiugou div ul li a {
+  color: #000;
+}
