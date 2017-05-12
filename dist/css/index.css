@@ -8,97 +8,56 @@ body {
   margin: 0 auto;
   position: relative;
 }
-.jd_dingbudaohang {
-  position: fixed;
-  width: 640px;
-  height:35px;
-  z-index: 100;
-}
-/*滚动条滚动500像素后显示的内容*/
-.jd_dingbudaohang_guding {
-   position: fixed;
-   width: 640px;
-   height:35px;
-   z-index: 100;
-	 background: red;
-	 
-}
+
 .guanggao{
 	display:none;
-	margin-top: 15px; 
 }
 .guanggao_guding{
-
-	width: 100%;
+	position: fixed;
 	display:block;
-	margin-top: 5px;
-}
-/*.jd_dingbudaohang_guanggao{
-	background-image: url(../../app/img/cp2.jpg);
-	
-}*/
-/*.jd_dingbudaohang_guding_tupian1{
-		position: absolute;
-	width: 25px;
-	height: 20px;
-  left: 10px;
-  top: 5px;
-  z-index: 101;
-}
-.jd_dingbudaohang_guding_tupian2{
-	position: absolute;
-  left: 35px;
-  width: 28px;
-  height: 20px;
-  top: 4px;
-  z-index: 101;
-}*/
-/*.jd_dingbudaohang_guding_shuru{
-    border-radius: 55px;
-  	width: 100%;
- 	 	padding-left: 65px;
-  	height: 30px;
-}*/
-/*
-.jd_dingbudaohang_guding_a{
-    text-decoration: none;
-  position: absolute;
-  top:7px;
-  font-size: 15px;
-  z-index: 5000;
-}*/
-
-#jingdong_tubiao{
-	position: absolute;
-	width: 25px;
-	height: 20px;
-  left: 10px;
-  top: 5px;
-  z-index: 101;
+	margin-top: 30px;
 }
 
-#sousuo {
-  position: absolute;
-  left: 35px;
-  width: 28px;
-  height: 20px;
-  top: 4px;
-  z-index: 101;
+.top {
+  min-width: 300px;
+  max-width: 640px;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
 }
-.jd_dingbudaohang a {
-  text-decoration: none;
+
+.top .header-search {
   position: absolute;
-  top:7px;
-  font-size: 15px;
-  z-index: 5000;
+  width: 100%;
+  height: 35px;
+  overflow: hidden; 
 }
-#sousuoshuru {
-  border-radius: 55px;
-  width: 40%;
-  padding-left: 65px;
+.header-search_fix{
+	background: red;
+}
+
+.top img {
+	width: 25px;
+  position: absolute;
+  margin-left:8px;
+  margin-top: 3px;
+}
+.top input {
+  width: 82%;
   height: 30px;
-  
+  border-radius: 20px;
+  font-size: 15px;
+
+  padding-left: 32px;
+	
 }
+.top .login {
+  width: 10%;
+
+  padding-top: 4px;
+  margin-left: 6px;
+  }
+
 /*轮播*/
 .lunbotu {
   margin: 0;
@@ -306,3 +265,15 @@ body {
 	color: red;
 }
 
+.jd_dibuguding{
+    position: fixed;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+   	background-image: url(../../app/img/享品质.png);
+   	border: 1px solid #FFFFFF;
+   	border-radius: 50px;
+   	margin-top: 5px;
+}
