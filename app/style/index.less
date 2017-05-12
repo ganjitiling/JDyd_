@@ -8,37 +8,56 @@ body {
   margin: 0 auto;
   position: relative;
 }
-.jd_dingbudaohang {
-  position: fixed;
+
+.guanggao{
+    display:none;
+}
+.guanggao_guding{
+    position: fixed;
+    display:block;
+    margin-top: 30px;
+}
+
+.top {
+  min-width: 300px;
+  max-width: 640px;
   width: 100%;
-  height: 30px;
-  z-index: 100;
-  margin-left: 6%;
+  position: fixed;
+  z-index: 999;
 }
-#sousuo {
+
+.top .header-search {
   position: absolute;
-  left: 7px;
-  top: 8px;
-  z-index: 101;
+  width: 100%;
+  height: 35px;
+  overflow: hidden; 
 }
-.jd_dingbudaohang img {
-  width: 60px;
-  height: 30px;
-  top: 5px;
+.header-search_fix{
+    background: red;
 }
-.jd_dingbudaohang a {
-  text-decoration: none;
+
+.top img {
+    width: 25px;
   position: absolute;
-  top: 4px;
-  font-size: 18px;
-  z-index: 5000;
+  margin-left:8px;
+  margin-top: 3px;
 }
-#sousuoshuru {
-  width: 25em;
-  border-radius: 75px;
-  padding-left: 10%;
+.top input {
+  width: 82%;
   height: 30px;
+  border-radius: 20px;
+  font-size: 15px;
+
+  padding-left: 32px;
+    
 }
+.top .login {
+  width: 10%;
+
+  padding-top: 4px;
+  margin-left: 6px;
+  }
+
 /*轮播*/
 .lunbotu {
   margin: 0;
@@ -111,6 +130,8 @@ body {
   background: #FFFFFF;
   cursor: pointer;
   text-decoration: none;
+  margin-left: 10%;
+ 
 }
 .chanpin a {
   text-decoration: none;
@@ -155,6 +176,9 @@ body {
   margin-left: 25%;
   margin-top: 10px;
 }
+.miaosha #miaosha1 img:hover{
+    opacity: 0.5;
+}
 .miaosha #miaosha1 p {
   color: red;
   margin-left: 38%;
@@ -170,6 +194,9 @@ body {
   height: 150px;
   margin-left: 25%;
   margin-top: 10px;
+}
+.miaosha #miaosha2 img:hover{
+    opacity: 0.5;
 }
 .miaosha #miaosha2 p {
   color: red;
@@ -199,21 +226,54 @@ body {
   width: 100%;
   height: 500px;
 }
-.dianjijiazai{
-    a{
-            font-size: 23px;
-    font-family: "微软雅黑";
-    text-decoration: none;
-    color: #C0C0C0;
-    cursor: pointer;
-    margin-top: 5px;
-    }
+.dianjijiazai a {
+  font-size: 23px;
+  font-family: "微软雅黑";
+  text-decoration: none;
+  color: #C0C0C0;
+  cursor: pointer;
+  margin-top: 5px;
 }
 .dibu{
-    img{
-         width: 100%;
-    height: 300px;
-    }
-   
+    margin-top: 15px;
+     width: 100%;
+     height: 300px;
+     cursor: pointer;
+     overflow: hidden;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-image: url(../../app/img/detail01.jpg);
+     z-index: 1;
+    
+}
+.dibu tr td{
+ text-align: right;
+}
+.dibu a{
+     font-size: 20px;
+     color:black;
+     text-decoration: none;
+     margin-top: 5px;
+}
+.dibu tr th img{
+    float: right;
+}
+.dibu img:hover{
+    opacity: 0.5;
+}
+.dibu a:hover{
+    color: red;
+}
 
+.jd_dibuguding{
+    position: fixed;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    background-image: url(../../app/img/享品质.png);
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+    margin-top: 5px;
 }
