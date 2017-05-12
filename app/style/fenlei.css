@@ -73,6 +73,8 @@ body {
 }
 #top #sousuo input {
   border: 1px rgba(75, 75, 75, 0.3) solid;
+  resize: none;
+  outline: none;
   border-radius: 5px;
   margin-top: 7px;
   width: 100%;
@@ -120,7 +122,7 @@ body {
   padding-bottom: 10px;
   border-color: transparent;
   color: black;
-  font-size: 10px;
+  font-size: 70%;
 }
 #middle #tab-body {
   padding-left: 25%;
