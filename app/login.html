@@ -2,12 +2,15 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
 		<title>登录京东</title>
 	<link rel="icon" href="favicon.ico" />
+	<script type="text/javascript" src="../bower_components/jquery/dist/jquery.js"></script>
 	<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../bower_components/jquery/dist/jquery.js">
     <link rel="stylesheet" href="../dist/css/login.css" />
     <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="script/login.js" type="text/javascript"></script>
+  
 	</head>
 	<body>
 		<div id="denglu_buju" >
@@ -17,17 +20,24 @@
       		<a class="navbar-brand col-xs-offset-4" >京东登录</a>
 		</div>
 			</div>		
-			<div class="denglu">
+			<div class="denglu container-fluid">
 				
 	<div class="form-group" id="loggin_shuru">
-		<input type="text" class="form-control input-lg" id="text1" placeholder="用户名/手机/邮箱" style="margin-top: 15px;">	
+		<input type="text" class="form-control input-lg" id="text1" placeholder="用户名/手机/邮箱" value="" style="margin-top: 15px;">
+		<button id="cuowu" onclick="cuowu1()">X</button>
+		
+		<div>
 		<input type="text" class="form-control input-lg" id="text2" placeholder="输入密码" style="margin-top: 15px;">	
-		<input type="text" class="form-control input-lg" id="text3" placeholder="请再次输入密码" style="margin-top: 15px;">	
-	</div>
-	<div>
+		<img src="img/开关.png" id="kaiguan1" onclick="kaiguan()"/>
+		<img src="img/开关 (1).png" id="kaiguan3" onclick="kaiguan2()" />
+		</div>
+		<input type="text" class="form-control input-lg" id="text3" placeholder="请再次输入密码" style="margin-top: 15px;">		
+		 <input type = "button" id="code" class="btn btn-danger btn-lg" onclick="createCode()"/>  
+	    </div>
+	    <div>
 		<input type="button" class="btn btn-group btn-lg" value="登录" style="width: 100%;"/>
-	</div>
-	<div  class="denglu_1">
+	    </div>
+	    <div  class="denglu_1">
 		<form>		
 		<input type="radio" id="danxuan" name="danxuan" class="input-lg" value="danxuan"  checked="checked" />
 		<div class="denglu_div1" ><label for="danxuan" style="cursor: pointer;">一周内免登录</label></div>
@@ -35,21 +45,22 @@
 		<input type="radio" class="input-lg" id="danxuan2" value="danxuan2" name="danxuan"/>
 		<div class="denglu_div2"><label for="danxuan2" style="cursor: pointer;">一次登录</label></div>
 		</div></form>
-	</div>
-	<hr />
-	<div class="zhaohuimima" >
+	    </div>
+	    <hr />
+	    <div class="zhaohuimima" >
 		<img src="img/密码.png" />
 		<a>找回密码</a>
-	</div>
-	<div class="kuaisuzhuce" >
+	    </div>
+	    <div class="kuaisuzhuce" >
 		<img src="img/my.png" />
 		<a>快速注册</a>
-	</div>
+	    </div>
 			</div>
 			<hr />
 			<div class="qitafangshidenglu">
 				<img src="img/其他方式登录.png" />
 			</div>
 		</div>
+	
 	</body>
 </html>

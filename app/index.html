@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,12 +6,13 @@
     <title>首页</title>
     <link rel="icon" href="favicon.ico" />
     <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../bower_components/jquery/dist/jquery.js">
     <link rel="stylesheet" href="../dist/css/index.css">
+    <script type="text/javascript" src="../bower_components/jquery/dist/jquery.js"></script>
     <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="script/jquery1.42.min.js"></script>
 	<script type="text/javascript" src="script/jquery.SuperSlide.2.1.1.js"></script>
-	<script type="text/javascript" src="script/检查浏览器.js"></script>
+	<script type="text/javascript" src="script/index.js"></script>
+	
 </head>
 <body>
 	<!--最外层DIV-->
@@ -215,24 +216,5 @@
     </table>
 </div>
 </div>
-
-<!--导航栏布局JS-->
-<script>
-	window.onscroll=function(){
-		var gd=scroll().top;
-		if(gd>500){		
-		var s=document.getElementById("header-search");
-		var s2=document.getElementById("guanggao1");
-			s.className="header-search_fix";
-			s2.className="guanggao_guding";
-		}else{	
-			
-			var s=document.getElementById("header-search");
-			var s2=document.getElementById("guanggao1");
-			s.className="header-search";
-			s2.className="guanggao";
-		}
-	}
-</script>
 </body>
 </html>
