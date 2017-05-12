@@ -21,30 +21,54 @@ body {
 }
 
 .denglu_1 {
+<<<<<<< HEAD
 	margin-top: 20px;
+=======
+  margin-top: 20px;
+>>>>>>> 1b8a86d91f49e4652c88d20e9df0a5bf5709d014
 }
 
 .denglu_1 .denglu_div1 {
+<<<<<<< HEAD
 	font-size: 20px;
 	color: red;
 	margin-left: 50px;
 	padding-top: 5px;
 	cursor: pointer;
+=======
+  font-size: 20px;
+  color: red;
+  margin-left: 50px;
+  padding-top: 5px;
+>>>>>>> 1b8a86d91f49e4652c88d20e9df0a5bf5709d014
 }
 
 .denglu_1 input {
+<<<<<<< HEAD
 	width: 30px;
 	height: 30px;
 	float: left;
 	cursor: pointer;
+=======
+  width: 30px;
+  height: 30px;
+  float: left;
+>>>>>>> 1b8a86d91f49e4652c88d20e9df0a5bf5709d014
 }
 
 .denglu_1 .denglu_div2 {
+<<<<<<< HEAD
 	font-size: 20px;
 	color: red;
 	padding-top: 5px;
 	margin-left: 50px;
 	cursor: pointer;
+=======
+  font-size: 20px;
+  color: red;
+  padding-top: 5px;
+  margin-left: 50px;
+>>>>>>> 1b8a86d91f49e4652c88d20e9df0a5bf5709d014
 }
 
 .zhaohuimima {
