@@ -1,9 +1,5 @@
 body {
-
   background: #f5f5f5;
-
-  background: #00b3ee;
-
   height: 1800px;
 }
 .jd_buju {
@@ -37,7 +33,40 @@ body {
 	display:block;
 	margin-top: 5px;
 }
-
+/*.jd_dingbudaohang_guanggao{
+	background-image: url(../../app/img/cp2.jpg);
+	
+}*/
+/*.jd_dingbudaohang_guding_tupian1{
+		position: absolute;
+	width: 25px;
+	height: 20px;
+  left: 10px;
+  top: 5px;
+  z-index: 101;
+}
+.jd_dingbudaohang_guding_tupian2{
+	position: absolute;
+  left: 35px;
+  width: 28px;
+  height: 20px;
+  top: 4px;
+  z-index: 101;
+}*/
+/*.jd_dingbudaohang_guding_shuru{
+    border-radius: 55px;
+  	width: 100%;
+ 	 	padding-left: 65px;
+  	height: 30px;
+}*/
+/*
+.jd_dingbudaohang_guding_a{
+    text-decoration: none;
+  position: absolute;
+  top:7px;
+  font-size: 15px;
+  z-index: 5000;
+}*/
 
 #jingdong_tubiao{
 	position: absolute;
@@ -74,31 +103,14 @@ body {
 .lunbotu {
   margin: 0;
   padding: 0;
-<<<<<<< HEAD
-=======
-  list-style: none;
->>>>>>> 0f4a2e9bdc8c7e2b8206f9db8aefff3f2901550d
   height: 200px;
   width: 100%;
 }
 .lunbotu .slideBox {
   height: 200px;
-<<<<<<< HEAD
   width: 100%;
   overflow: hidden;
   position: relative;
-=======
-  width: 100%
-         overflow:hidden;
-  position: relative;
-  border: 1px solid #ddd;
-  top: -20px;
-  left: 20px;
-}
-.lunbotu .slideBox .hd ul li.on {
-  background: #f00;
-  color: #fff;
->>>>>>> 0f4a2e9bdc8c7e2b8206f9db8aefff3f2901550d
 }
 .lunbotu .slideBox .bd {
   position: relative;
@@ -111,16 +123,11 @@ body {
   text-decoration: none;
 }
 .lunbotu .slideBox .bd li {
-<<<<<<< HEAD
   margin-left: -15%;
-=======
-  zoom: 1;
-  vertical-align: middle;
->>>>>>> 0f4a2e9bdc8c7e2b8206f9db8aefff3f2901550d
 }
 .lunbotu .slideBox .bd img {
   height: 200px;
-  width: 1000px;
+  width: 100%;
   display: block;
 }
 .lunbotu .slideBox .hd ul li {
@@ -276,7 +283,7 @@ body {
  	 overflow: hidden;
  	 background-repeat: no-repeat;
  	 background-position: center;
- 	 background-image: url(../../app/img/detail: 01.jpg;);
+ 	 background-image: url(../../app/img/detail01.jpg);
  	 z-index: 1;
  	
 }
