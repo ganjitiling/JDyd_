@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
     <title>首页</title>
+    <link rel="icon" href="favicon.ico" />
     <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../bower_components/jquery/dist/jquery.js">
     <link rel="stylesheet" href="../dist/css/index.css">
@@ -16,20 +17,18 @@
 	<!--最外层DIV-->
 <div class="jd_buju">
 	<!--首页导航-->
-<div class="jd_dingbudaohang col-xs-12" id="jd_dingbudaohang">
-    <div class="input-group  col-xs-10" style="top: 4px;">
-    	<img src="img/buy-logo.png" id="jingdong_tubiao" >
-     	<img src="img/搜索_搜索.png" id="sousuo"/>
-        <input type="text" class="form-control" id="sousuoshuru" placeholder="开始搜索你需要的" >   
-        <a href="#" class="col-xs-2" style="text-decoration: none;position: absolute;top:7px;font-size: 15px;z-index: 5000;">登录</a>	  
-    </div>
-    	
+
+    <div class="top" >
+    <div class="header-search" id="header-search"  >
+    <img src="img/buy-logo.png" alt="#" />
+    <input type="text" placeholder="搜索你要东西" />
+    <a href="#" class="login" style="font-size: 18px;color: white;text-decoration: none;right: 2%; ">登陆</a>
+</div>
+</div>
     <!--广告-->
     <div >
-	<img src="img/广告.png" id="guanggao" class="guanggao" style="width: 100%; "/>
-</div>
-</div>
-
+	<img src="img/广告.png" id="guanggao1" class="guanggao" style="width: 640px; z-index: 55; "/>
+	</div>
 
 <!--轮播-->
 <div class="lunbotu">
@@ -167,20 +166,53 @@
 <a href="#" class="col-xs-offset-2">Copyright © 2004-2017 京东JD.com 版权所有  Copyright ©</a>
 	
 </div>
+<div class="jd_dibuguding">
+	<table style="width: 100%">
+        <tr style="width: 100%;text-align: center">
+            <td>
+                <a href="#">
+                    <img src="img/home_fill2.png">
+                </a>
+            </td>
+            <td>
+                <a href="#">
+                    <img src="img/sort_light.png">
+                </a>
+            </td>
+            <td>
+                <a href="#">
+                    <img src="img/hot.png">
+                </a>
+            </td>
+            <td>
+                <a href="#">
+                    <img src="img/cart_light.png">
+                </a>
+            </td>
+            <td>
+                <a href="login.html">
+                    <img src="img/people.png">
+                </a>
+            </td>
+        </tr>
+    </table>
 </div>
+</div>
+
 <!--导航栏布局JS-->
 <script>
 	window.onscroll=function(){
 		var gd=scroll().top;
-		if(gd>500){
-			var s=document.getElementById("jd_dingbudaohang");
-			var s2=document.getElementById("guanggao");
-			s.className="jd_dingbudaohang_guding";
+		if(gd>500){		
+		var s=document.getElementById("header-search");
+		var s2=document.getElementById("guanggao1");
+			s.className="header-search_fix";
 			s2.className="guanggao_guding";
-		}else{
-			var s=document.getElementById("jd_dingbudaohang");
-			var s2=document.getElementById("guanggao");
-			s.className="jd_dingbudaohang";
+		}else{	
+			
+			var s=document.getElementById("header-search");
+			var s2=document.getElementById("guanggao1");
+			s.className="header-search";
 			s2.className="guanggao";
 		}
 	}

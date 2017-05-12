@@ -1,9 +1,5 @@
 body {
-
   background: #f5f5f5;
-
-  background: #00b3ee;
-
   height: 1800px;
 }
 .jd_buju {
@@ -12,93 +8,60 @@ body {
   margin: 0 auto;
   position: relative;
 }
-.jd_dingbudaohang {
+.guanggao {
+  display: none;
+}
+.guanggao_guding {
   position: fixed;
-  width: 640px;
-  height:35px;
-  z-index: 100;
+  display: block;
+  margin-top: 30px;
 }
-/*滚动条滚动500像素后显示的内容*/
-.jd_dingbudaohang_guding {
-   position: fixed;
-   width: 640px;
-   height:35px;
-   z-index: 100;
-	 background: red;
-	 
+.top {
+  min-width: 300px;
+  max-width: 640px;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
 }
-.guanggao{
-	display:none;
-	margin-top: 15px; 
-}
-.guanggao_guding{
-
-	width: 100%;
-	display:block;
-	margin-top: 5px;
-}
-
-
-#jingdong_tubiao{
-	position: absolute;
-	width: 25px;
-	height: 20px;
-  left: 10px;
-  top: 5px;
-  z-index: 101;
-}
-
-#sousuo {
+.top .header-search {
   position: absolute;
-  left: 35px;
-  width: 28px;
-  height: 20px;
-  top: 4px;
-  z-index: 101;
+  width: 100%;
+  height: 35px;
+  overflow: hidden;
 }
-.jd_dingbudaohang a {
-  text-decoration: none;
+.header-search_fix {
+  background: red;
+}
+.top img {
+  width: 25px;
   position: absolute;
-  top:7px;
-  font-size: 15px;
-  z-index: 5000;
+  margin-left: 8px;
+  margin-top: 3px;
 }
-#sousuoshuru {
-  border-radius: 55px;
-  width: 40%;
-  padding-left: 65px;
+.top input {
+  width: 82%;
   height: 30px;
-  
+  border-radius: 20px;
+  font-size: 15px;
+  padding-left: 32px;
+}
+.top .login {
+  width: 10%;
+  padding-top: 4px;
+  margin-left: 6px;
 }
 /*轮播*/
 .lunbotu {
   margin: 0;
   padding: 0;
-<<<<<<< HEAD
-=======
-  list-style: none;
->>>>>>> 0f4a2e9bdc8c7e2b8206f9db8aefff3f2901550d
   height: 200px;
   width: 100%;
 }
 .lunbotu .slideBox {
   height: 200px;
-<<<<<<< HEAD
   width: 100%;
   overflow: hidden;
   position: relative;
-=======
-  width: 100%
-         overflow:hidden;
-  position: relative;
-  border: 1px solid #ddd;
-  top: -20px;
-  left: 20px;
-}
-.lunbotu .slideBox .hd ul li.on {
-  background: #f00;
-  color: #fff;
->>>>>>> 0f4a2e9bdc8c7e2b8206f9db8aefff3f2901550d
 }
 .lunbotu .slideBox .bd {
   position: relative;
@@ -111,16 +74,11 @@ body {
   text-decoration: none;
 }
 .lunbotu .slideBox .bd li {
-<<<<<<< HEAD
   margin-left: -15%;
-=======
-  zoom: 1;
-  vertical-align: middle;
->>>>>>> 0f4a2e9bdc8c7e2b8206f9db8aefff3f2901550d
 }
 .lunbotu .slideBox .bd img {
   height: 200px;
-  width: 1000px;
+  width: 100%;
   display: block;
 }
 .lunbotu .slideBox .hd ul li {
@@ -165,7 +123,6 @@ body {
   cursor: pointer;
   text-decoration: none;
   margin-left: 10%;
- 
 }
 .chanpin a {
   text-decoration: none;
@@ -210,8 +167,8 @@ body {
   margin-left: 25%;
   margin-top: 10px;
 }
-.miaosha #miaosha1 img:hover{
-	opacity: 0.5;
+.miaosha #miaosha1 img:hover {
+  opacity: 0.5;
 }
 .miaosha #miaosha1 p {
   color: red;
@@ -229,8 +186,8 @@ body {
   margin-left: 25%;
   margin-top: 10px;
 }
-.miaosha #miaosha2 img:hover{
-	opacity: 0.5;
+.miaosha #miaosha2 img:hover {
+  opacity: 0.5;
 }
 .miaosha #miaosha2 p {
   color: red;
@@ -268,34 +225,44 @@ body {
   cursor: pointer;
   margin-top: 5px;
 }
-.dibu{
-	margin-top: 15px;
-	 width: 100%;
- 	 height: 300px;
- 	 cursor: pointer;
- 	 overflow: hidden;
- 	 background-repeat: no-repeat;
- 	 background-position: center;
- 	 background-image: url(../../app/img/detail: 01.jpg;);
- 	 z-index: 1;
- 	
+.dibu {
+  margin-top: 15px;
+  width: 100%;
+  height: 300px;
+  cursor: pointer;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../../app/img/detail01.jpg);
+  z-index: 1;
 }
-.dibu tr td{
- text-align: right;
+.dibu tr td {
+  text-align: right;
 }
-.dibu a{
-	 font-size: 20px;
- 	 color:black;
- 	 text-decoration: none;
- 	 margin-top: 5px;
+.dibu a {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  margin-top: 5px;
 }
-.dibu tr th img{
-	float: right;
+.dibu tr th img {
+  float: right;
 }
-.dibu img:hover{
-	opacity: 0.5;
+.dibu img:hover {
+  opacity: 0.5;
 }
-.dibu a:hover{
-	color: red;
+.dibu a:hover {
+  color: red;
 }
-
+.jd_dibuguding {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  padding-top: 10px;
+  background-image: url(../../app/img/享品质.png);
+  border: 1px solid #FFFFFF;
+  border-radius: 50px;
+  margin-top: 5px;
+}
