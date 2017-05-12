@@ -121,23 +121,146 @@
     background-size: 50px 100px;
 }
 .goods .detail_box{
+    margin-bottom: 2px;
     display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid darkgray;
 }
 .goods .detail_box .detail_check{
-    margin-right:10px ;
+    height: 20px;
+    width: 20px;
+    margin:10px ;
+    float: left;
 }
 .goods .detail_box .detail_img {
     height: 100px;
     width: 100px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
-.goods .detail_box span,p{
-    font-size: 13px;
-    line-height: 15px;
-    height: 30px;
-    text-overflow: ellipsis;/*单行文本省略号*/
-    margin-bottom: 5px;
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp:2;
-    -webkit-box-orient:vertical;
+.goods .detail_box p{
+    margin-top: 20px;
+}
+/*数量加减*/
+.goods_jiajian{
+    margin-top: 8px;
+    float: left;
+}
+.goods_jiajian span{
+    height: 22px;
+    width: 20px;
+    border: 1px solid grey;
+    text-align: center;
+    float: left;
+}
+.goods_jiajian input{
+    height: 22px;
+    width: 35px;
+    border: 1px solid grey;
+    float: left;
+    text-align: center;
+}
+.goods_shanchu img{
+    height: 20px;
+    width: 20px;
+    margin-top: 10px;
+    margin-left: 130px;
+}
+/*店铺里第二件商品*/
+.goods2 .detail_box2{
+    margin-bottom: 2px;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid darkgray;
+}
+.goods2 .detail_box2 .detail_check2{
+    height: 20px;
+    width: 20px;
+    margin:10px ;
+    float: left;
+}
+.goods2 .detail_box2 .detail_img2 {
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.goods2 .detail_box2 p{
+    margin-top: 20px;
+}
+/*数量加减*/
+.goods_jiajian2{
+    margin-top: 8px;
+    float: left;
+}
+.goods_jiajian2 span{
+    height: 22px;
+    width: 20px;
+    border: 1px solid grey;
+    text-align: center;
+    float: left;
+}
+.goods_jiajian2 input{
+    height: 22px;
+    width: 35px;
+    border: 1px solid grey;
+    float: left;
+    text-align: center;
+}
+.goods_shanchu2 img{
+    height: 20px;
+    width: 20px;
+    margin-top: 10px;
+    margin-left: 130px;
+}
+
+/*结算*/
+.goods_jiesuan{
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #333333;
+    color: white;
+    z-index: 10;
+}
+.goods_jiesuan .check{
+    float: left;
+}
+.goods_jiesuan .check img{
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+}
+.goods_jiesuan .heji{
+    float: left;
+    margin-left: 10px;
+    line-height: 5px;
+    padding-top: 10px;
+}
+.goods_jiesuan .fanxian{
+    font-size: 12px;
+}
+.goods_jiesuan .jiesuan{
+    height: 40px;
+    width: 102px;
+    text-align: center;
+    position: absolute;
+    right: 0;
+}
+.goods_jiesuan .jiesuan a{
+    height: 40px;
+    width: 90%;
+    display: block;
+    background: #f15353;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 16px;
+    margin-left: 10%;
+    float: left;
 }
