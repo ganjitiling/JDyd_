@@ -17,31 +17,26 @@ body {
   border-bottom: 1px rgba(103, 103, 103, 0.28) solid;
 }
 #top #fanhui {
-  margin: 3px 10px 6px 6px;
+  margin: 10px 0px 6px 0px;
   float: left;
   display: block;
   padding-left: 10px;
   text-align: center;
 }
-#top #fanhui a {
-  font-size: 25px;
-  color: black;
-}
 #top #fanhui a :hover {
   text-decoration: none;
-  color: black;
 }
 #top #fanhui a :link {
   text-decoration: none;
-  color: black;
 }
 #top #fanhui a :active {
   text-decoration: none;
-  color: black;
 }
 #top #fanhui a :visited {
   text-decoration: none;
-  color: black;
+}
+#top #fanhui a img {
+  height: 25px;
 }
 #top #fanhui span {
   font-size: 25px;
@@ -66,11 +61,13 @@ body {
 }
 #top #sousuo {
   float: left;
-  width: 75%;
+  width: 78%;
   height: 100%;
 }
 #top #sousuo input {
   border: 1px rgba(75, 75, 75, 0.3) solid;
+  resize: none;
+  outline: none;
   border-radius: 5px;
   margin-top: 7px;
   width: 100%;
@@ -85,10 +82,11 @@ body {
 #top #daohangbtn {
   float: left;
   display: block;
-  margin: 10px 0 0 10px;
+  margin: 10px 0 0 8px;
 }
 #top #daohangbtn span {
   font-size: 20px;
+  color: #c8c8c8;
 }
 #middle {
   background-color: #f3f5f7;
@@ -100,7 +98,7 @@ body {
 #middle #left {
   z-index: 8;
   height: 100%;
-  width: 22%;
+  width: 26%;
   background-color: white;
   position: relative;
   float: left;
@@ -114,13 +112,13 @@ body {
 #middle #left ul li a {
   text-align: center;
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
   border-color: transparent;
   color: black;
-  font-size: 12px;
+  font-size: 10px;
 }
 #middle #tab-body {
-  padding-left: 24%;
+  padding-left: 27%;
   height: 100%;
   width: 100%;
   padding-right: 5px;
