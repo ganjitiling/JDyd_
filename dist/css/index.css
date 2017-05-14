@@ -266,3 +266,29 @@ body {
   border-radius: 50px;
   margin-top: 5px;
 }
+/*京东快报*/
+.txt-top{ 
+	 width:100%; 
+	 overflow:hidden; 
+	 position:relative;  
+	 background: white; 
+	  }		
+.txt-top .bd{
+	 padding:15px;
+	   }
+.txt-top .xiaoxi li{
+	 height:24px; 
+	 line-height:24px;
+	    }
+	   .txt-top .xiaoxi li a{
+		color: #9999FF;
+		text-decoration: none;
+	    }
+	      .txt-top .xiaoxi li a:hover{
+			color: red;
+	    }
+.txt-top .xiaoxi li .date{
+	 float:right; 
+	 color:#999; 
+	  }
+
